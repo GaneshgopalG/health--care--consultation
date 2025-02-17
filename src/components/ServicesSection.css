@@ -1,0 +1,29 @@
+
+.services-section {
+background-color: #f8f9fa; /* Light gray */
+}
+.services-section h3 {
+font-size: 1.8rem;
+font-weight: bold;
+color: #333;
+}
+.services-section .card {
+border: none;
+border-radius: 10px;
+transition: transform 0.3s ease, box-shadow
+0.3s ease;
+}
+.services-section .card:hover {
+transform: translateY(-10px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.services-section .card-title {
+font-size: 1.2rem;
+font-weight: bold;
+color: #007bff; /* Primary color */
+}
+.services-section .card-text {
+color: #555;
+font-size: 0.9rem;
+line-height: 1.4;
+}

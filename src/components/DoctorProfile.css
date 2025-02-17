@@ -1,0 +1,66 @@
+/* Doctor Profile Component */
+.doctor-profile {
+max-width: 1200px;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.doctor-profile img {
+width: 180px;
+height: 180px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 20px;
+}
+.doctor-profile h2 {
+font-size: 2rem;
+margin-bottom: 10px;
+}
+.doctor-profile p {
+font-size: 1.1rem;
+color: #333;
+margin-bottom: 15px;
+}
+.doctor-profile h3 {
+font-size: 1.5rem;
+color: #2d6a4f;
+margin-top: 25px;
+}
+.doctor-profile .biography,
+.doctor-profile .certifications {
+text-align: left;
+margin-bottom: 20px;
+}
+.doctor-profile .biography p {
+font-size: 1.1rem;
+color: #555;
+}
+.doctor-profile .certifications ul {
+list-style: none;
+padding: 0;
+
+}
+.doctor-profile .certifications li {
+font-size: 1rem;
+color: #555;
+margin-bottom: 5px;
+}
+button {
+padding: 12px 20px;
+font-size: 1.1rem;
+background-color: #2d6a4f;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+button:hover {
+background-color: #1b4e35;
+}
+button:focus {
+outline: none;
+}
